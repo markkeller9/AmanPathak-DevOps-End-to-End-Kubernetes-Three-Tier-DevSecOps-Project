@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "MDK-ews-bucket1"
+    bucket         = "mdk-ews-bucket1"
     region         = "us-east-2"
     key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "Rock-Files"
